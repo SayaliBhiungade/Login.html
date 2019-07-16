@@ -53,6 +53,9 @@ input[type=text]{
 	border-radius:4px;
 	padding:10px;
 }
+::placeholder { 
+  color: #d3d3d3;
+}
 input[type=button]{background-color:#5F90F8;color:white;height:65px;
 	width:400px;border:none;font-size:16;
 	border-radius:4px;}
@@ -63,8 +66,8 @@ input[type=button]{background-color:#5F90F8;color:white;height:65px;
 <div class=up>Welcome Back!</div>
 <div class=login>
 <form>
-<input type="text" name="emailaddress" value="Email Address"><br><br>
-<input type="text" name="pass" value="Password" ><br><br>
+<input type="text" name="emailaddress" placeholder="Email Address"><br><br>
+<input type="text" name="pass" placeholder="Password" ><br><br>
 <input type="button" name="login" value="Login"  ></form>
 </div>
 <div class=down>Forgot your password? </div><div class=get>Don't have an account?Get Started</div>
