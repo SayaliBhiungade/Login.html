@@ -5,60 +5,8 @@
 href="https://fonts.googleapis.com/icon?
 family=Material+Icons">
 <style>
+@import  "login.css";
 .material-icons.orange600 { color: #FFFFFF; font-size: 48px;}
-.login{
-	background-color:white;
-	line-height:20px;
-	height:200px;
-	width:600px;
-	margin:auto;
-	padding-top:45px;
-	padding-bottom:80px;
-	transform: translate(0%, 10%);
-	border-radius:10px;
-	text-align:center;
-}
-.pic{
-	transform: translate(48.5%, 80%);
-}
-.up{
-	color:white;
-	font-size:24;
-	text-align:center;
-	padding-top:60px;
-	padding-bottom:0px;
-}
-.down{
-	color:white;
-	font-size:16;
-	width:300px;
-	padding-top:70px;
-	padding-left:460px;
-	padding-bottom:80px;
-}
-.get{
-	color:white;
-	font-size:16;
-	width:500px;
-	position:relative;
-	transform: translate(0%, -540%);
-	padding-left:835px;
-}
-input[type=text]{
-	height:65px;
-	font-size:16;
-	width:400px;
-	border:0.5px solid  #d3d3d3;
-	color: #d3d3d3;
-	border-radius:4px;
-	padding:10px;
-}
-::placeholder { 
-  color: #d3d3d3;
-}
-input[type=button]{background-color:#5F90F8;color:white;height:65px;
-	width:400px;border:none;font-size:16;
-	border-radius:4px;}
 </style>
 </head>
 <body bgcolor=#5F90F8>
@@ -66,10 +14,13 @@ input[type=button]{background-color:#5F90F8;color:white;height:65px;
 <div class=up>Welcome Back!</div>
 <div class=login>
 <form>
-<input type="text" name="emailaddress" placeholder="Email Address"><br><br>
+<input type="text" name="emailaddress"placeholder="Email Address"><br><br>
 <input type="text" name="pass" placeholder="Password" ><br><br>
 <input type="button" name="login" value="Login"  ></form>
 </div>
-<div class=down>Forgot your password? </div><div class=get>Don't have an account?Get Started</div>
+<div class=down>
+<div style="flex-grow: 0.34">Forgot your password? </div>
+<div style="flex-grow: 0.5">Don't have an account?Get Started</div>
+</div>
 </body>
 </html>
