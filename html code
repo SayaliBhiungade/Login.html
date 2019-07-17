@@ -6,7 +6,6 @@ href="https://fonts.googleapis.com/icon?
 family=Material+Icons">
 <style>
 @import  "login.css";
-.material-icons.orange600 { color: #FFFFFF; font-size: 48px;}
 </style>
 </head>
 <body bgcolor=#5F90F8>
